@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.about_programm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="О программе" Height="300" Width="500" ResizeMode="NoResize">
+    <Grid Background="LightGray">
+        <TextBlock HorizontalAlignment="Left" Height="29" Margin="16,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="432"><Run Language="ru-ru" Text="Разработал"/><Run Text=": Варганов "/><Run Text="Н.А., студент группы 3-ИСП"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Height="28" Margin="0,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontWeight="Bold"><Run Language="ru-ru" Text="О программе"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Height="28" Margin="0,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244"><Run Language="ru-ru" Text="Приложение для дублирования "/><Run Text="RFID"/><Run Language="ru-ru" Text="-меток"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="16,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="432" Text="Email: varganovnik@gmail.com"/>
+        <Image HorizontalAlignment="Left" Height="141" Margin="268,102,0,0" VerticalAlignment="Top" Width="178" Source="/Снимок экрана 2024-12-18 112819.png"/>
+        <Button Content="Закрыть" Margin="80,168,0,0" Height="37" VerticalAlignment="Top" HorizontalAlignment="Left" Width="116" Click="Button_Click_2"  />
+
+    </Grid>
+</Window>
